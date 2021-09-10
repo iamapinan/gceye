@@ -8,6 +8,16 @@ docker-compose.yml
 ssl_new
 ```
 
+### Build image
+```
+docker build -t gttgc/gceye:lastest .
+```
+
+### Push image
+```
+docker push gttgc/gceye:lastest
+```
+
 ### docker image [https://hub.docker.com/repository/docker/iamapinan/gceye](https://hub.docker.com/repository/docker/iamapinan/gceye)   
 to pull the image
 ```
