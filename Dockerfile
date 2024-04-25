@@ -1,4 +1,4 @@
-FROM wordpress:5.8-php7.4-apache
+FROM optiz0r/wordpress-ldap:6.5.0-php8.2-apache
 
 WORKDIR /var/www/html
 
